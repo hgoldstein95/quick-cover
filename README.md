@@ -25,5 +25,11 @@ a ready-to-use tool, although the theory behind it is sound.
 ## Important Files
 
 The main implementation of the QuickCover algorithm can be found in
-[src/SystemFExperiments.hs](src/SystemFExperiments.hs). We define and
-manipulate our sparse test descriptions in [src/HT.hs](src/HT.hs).
+[SystemFExperiments.hs](src/SystemFExperiments.hs). We define and manipulate
+our sparse test descriptions in [HT.hs](src/HT.hs).
+
+[Main.hs](app/Main.hs) runs the System F experiment from the paper
+evaluation---edit `experiments` at the bottom of
+[SystemFExperiments.hs](src/SystemFExperiments.hs) to manipulate the experiment
+parameters.
+
